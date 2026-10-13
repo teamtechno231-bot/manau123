@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "plan": "premium",
+      "status": "active",
+      "id": "demo",
+      "name": "Demo User",
+      "email": "you@example.com",
+      "role": "owner",
+      "lastActive": "Just now"
+    },
+    {
+      "plan": "free",
+      "status": "active",
+      "id": "alex",
+      "name": "Alex Smith",
+      "email": "alex@example.com",
+      "role": "member",
+      "lastActive": "2 days ago"
+    },
+    {
+      "plan": "free",
+      "status": "invited",
+      "id": "jamie",
+      "name": "Jamie Rivera",
+      "email": "jamie@example.com",
+      "role": "member",
+      "lastActive": "1 week ago"
+    },
+    {
+      "plan": "free",
+      "status": "active",
+      "id": "analyst",
+      "name": "Read Only Analyst",
+      "email": "analyst@example.com",
+      "role": "analyst",
+      "lastActive": "Just now"
+    }
+  ],
+  "settings": {
+    "voice": true,
+    "research": true,
+    "attachments": true,
+    "defaultModel": "Prime Sonnet",
+    "retention": "Until manually deleted",
+    "access": "Invite only"
+  },
+  "conversations": [],
+  "activity": [
+    {
+      "id": 1791766556687416,
+      "event": "User sign-in",
+      "actorId": "demo",
+      "actor": "Demo User",
+      "time": "2026-10-12T00:55:56.687Z",
+      "status": "Success",
+      "metadata": {
+        "source": "test_demo"
+      }
+    },
+    {
+      "id": 1791764966745,
+      "event": "User sign-in",
+      "actor": "Demo User",
+      "time": "2026-10-12T00:29:26.745Z",
+      "status": "Success"
+    },
+    {
+      "id": 1791747206428,
+      "event": "Updated assistant controls",
+      "actor": "Demo User",
+      "time": "2026-10-11T19:33:26.428Z",
+      "status": "Success"
+    },
+    {
+      "id": 1791747206420,
+      "event": "Updated assistant controls",
+      "actor": "Demo User",
+      "time": "2026-10-11T19:33:26.420Z",
+      "status": "Success"
+    },
+    {
+      "id": 1,
+      "event": "Server initialized",
+      "actor": "System",
+      "time": "2026-10-11T19:31:07.990Z",
+      "status": "Success"
+    }
+  ],
+  "apiKeys": [],
+  "usage": {},
+  "sessions": [],
+  "profiles": {},
+  "onboarding": {},
+  "projects": [],
+  "reports": [],
+  "sessionSecret": "9b1fce86d2f71ed08d2a5823cdc19055d8472f29af41c5830701de518183986c"
+}
